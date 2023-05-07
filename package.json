@@ -1,0 +1,25 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./tailwind.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolthedeveloper/frontend-mentor-product-preview-card-design.git"
+  },
+  "keywords": [],
+  "author": "ATD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anmolthedeveloper/frontend-mentor-product-preview-card-design/issues"
+  },
+  "homepage": "https://github.com/anmolthedeveloper/frontend-mentor-product-preview-card-design#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
