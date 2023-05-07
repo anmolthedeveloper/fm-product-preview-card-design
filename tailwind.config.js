@@ -9,6 +9,10 @@ module.exports = {
         veryDarkBlue: "hsl(212, 21%, 14%)",
         darkGrayishBlue: "hsl(228, 12%, 48%)",
       },
+      fontFamily: {
+        montserrat: ["Montserrat"],
+        fraunces: ["Fraunces"],
+      },
     },
   },
   plugins: [],
