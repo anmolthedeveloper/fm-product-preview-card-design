@@ -29,9 +29,57 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body>
-    Preview Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+  <body class="flex items-center justify-center h-screen bg-cream">
+    <div
+      class="w-72 sm:w-[34rem] bg-white rounded-lg flex flex-col sm:flex-row mx-5"
+    >
+      <img
+        src="./images/image-product-mobile.jpg"
+        alt="product image"
+        class="rounded-t-lg sm:hidden block"
+      />
+
+      <img
+        src="./images/image-product-desktop.jpg"
+        alt="product image"
+        class="rounded-l-lg sm:block hidden w-[17rem]"
+      />
+
+      <div class="p-5 sm:p-8">
+        <p
+          class="text-darkGrayishBlue text-xs tracking-[.40em] font-montserrat mb-2 sm:mb-4"
+        >
+          PERFUME
+        </p>
+        <p class="font-fraunces text-3xl mb-2 sm:mb-5 sm:leading-7">
+          Gabrielle Essence Eau De Parfum
+        </p>
+        <p
+          class="text-darkGrayishBlue text-xs font-montserrat mb-2 sm:mb-5 sm:leading-5"
+        >
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center">
+          <p
+            class="text-2xl font-extrabold font-fraunces mr-3 text-darkCyan sm:text-3xl"
+          >
+            $149.99
+          </p>
+          <p class="text-sm font-montserrat text-darkGrayishBlue line-through">
+            $169.99
+          </p>
+        </div>
+        <div
+          class="px-3 py-2 bg-darkCyan rounded-lg mt-3 sm:mt-6 flex justify-center items-center before:content-cart hover:bg-green-950"
+        >
+          <p
+            class="text-white ml-2 text-sm font-montserrat font-semibold sm:font-medium"
+          >
+            Add to Cart
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

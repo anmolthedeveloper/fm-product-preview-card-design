@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}", "./images/**/*"],
   theme: {
     extend: {
+      content: {
+        cart: 'url("./images/icon-cart.svg")',
+      },
       colors: {
         darkCyan: "hsl(158, 36%, 37%)",
         cream: "hsl(30, 38%, 92%)",
